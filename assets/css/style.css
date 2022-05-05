@@ -1,0 +1,94 @@
+/* todo el documento, con esto la imagen no queda con un margen arriba*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color:white;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+/*menú de arriba con imagen*/
+header .fondo {
+  height: 300px;
+  background-image: url("../img/bat.jpg");
+  background-size: cover;
+  background-position:center;
+  margin: 0px;
+  border: solid 5px #000;
+}
+
+/* tipos de productos */
+header .fondo ul {
+  font-size: 20px;
+  padding: 110px;
+  padding-left: 40px;
+  color: black;
+}
+
+/* icono */
+header .fondo img {
+  width: 80px;
+  padding-left: 50px;
+  padding-top: 5px;
+  float: left;
+}
+
+/* Amigatos */
+h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 50px;
+  padding-top: 15px;
+  color: purple;
+}
+
+h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 50px;
+  color: purple;
+}
+
+/* productos */
+h2 {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: rgb(255, 192, 203);
+  color: black;
+  text-align: center;
+  font-weight: 900;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.contenedor{
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+}
+
+.contenedor img{
+  width: 350px;
+  height: 300px;
+  margin: 30px ;
+  border: 1px solid royalblue;
+}
+
+/* texto de imagenes*/
+.right{
+  padding-top: 50px;
+  font-size: 200%;
+  padding-top: 100px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:purple;
+}
+
